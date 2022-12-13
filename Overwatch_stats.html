@@ -6,9 +6,9 @@
 -->
 <html>
 	<head>
-		<title>Victor Maldonado Website</title>
+		<title>Victor Maldonado - Overwatch Players Data analysis</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="content" content="Analysis of Overwatch players data. Unfortunately the data is no longer accesible" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -3928,7 +3928,7 @@ iframe{
     padding-left: 0px;
     padding-right: 0px;
 "><div class="mx-2 rounded sm:rounded-lg py-6 px-2 sm:px-12 max-w-6xl mx-auto text-indigo-200" style="word-wrap:break-word;overflow-wrap:break-word;"><div class="px-2 py-2 sm:px-6"><!----> <div class="prose max-w-none text-indigo-200 my-6"><div id="server-rendered-notebook"><div class="nb-notebook"><section class="nb-cell nb-markdown-cell"><h1 id="web-scrapping-overwatch-players-stats-data-with-beautifulsoup"><a class="anchor" href="http://127.0.0.1:5500/html5up-phantom/victormma&#39;s%20Posts.html#web-scrapping-overwatch-players-stats-data-with-beautifulsoup" aria-hidden="true"></a>Web scrapping Overwatch players stats data with BeautifulSoup</h1></section><section class="nb-cell nb-markdown-cell"><p><img src="images/overwatch.jpeg" alt="overwatch.jpeg"></p>
-</section><section class="nb-cell nb-markdown-cell"><p>Overwatch is a First Person Shooter (FPS) videogame developed by Blizzard and released on May 24, 2016. With an estimated of 8.7 million active players.  Using the module BeautiFulSoup we will scrape data related to the Top 100 Overwatch players on PC based on skill rating system from <a href="https://overwatch.op.gg/leaderboards">https://overwatch.op.gg/leaderboards</a></p>
+</section><section class="nb-cell nb-markdown-cell"><p>Overwatch is a First Person Shooter (FPS) videogame developed by Blizzard and released on May 24, 2016. With an estimated of 8.7 million active players.  Using the module BeautiFulSoup we will scrape data related to the Top 100 Overwatch players on PC based on skill rating system from <a href="https://overwatch.op.gg/leaderboards">https://overwatch.op.gg/leaderboards. Note: After the realease of Overwatch 2 the aforementioned website is no longer able to display player stats. The code below it will not work if you use it to retrieve data from the website.</a></p>
 </section><section class="nb-cell nb-markdown-cell"><h3 id="first-we-import-the-required-modules"><a class="anchor" href="http://127.0.0.1:5500/html5up-phantom/victormma&#39;s%20Posts.html#first-we-import-the-required-modules" aria-hidden="true"></a>First we import the required modules for web scrapping</h3></section><section class="nb-cell nb-code-cell"><div class="nb-source nb-input" data-execution-count="19" data-prompt-number="19"><pre><code class="lang-python" data-language="python"><span class="hljs-keyword">import</span> pandas <span class="hljs-keyword">as</span> pd
 <span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
 <span class="hljs-keyword">import</span> seaborn <span class="hljs-keyword">as</span> sns
